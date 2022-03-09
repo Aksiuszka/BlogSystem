@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from 'components/Navbar/Navbar';
 import Footer from 'components/Footer/Footer';
 import Menu from 'components/Menu/Menu';
+import Circle from 'components/Circle/Circle';
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 				<Navbar />
 			</div>
 			<Menu />
+			<Circle/>
 			<div className="darkSide">
 				<Footer></Footer>
 			</div>

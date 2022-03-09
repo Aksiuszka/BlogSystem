@@ -27,7 +27,7 @@ export const IconHolders = styled.div`
 height: 50px;
 width: 50px ;
 border-radius:50%;
-background: #ebebeb;
+background: #e0e0e0;
 box-shadow: inset 5px 5px 8px #cccccc,
             inset -5px -5px 8px #ffffff;
 display:flex;
