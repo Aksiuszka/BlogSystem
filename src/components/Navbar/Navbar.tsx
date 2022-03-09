@@ -4,8 +4,6 @@ import HomeIcon from './assets/home.png'
 import AboutUs from './assets/users-avatar.png'
 import Contact from './assets/phone.png'
 
-
-
 function Navbar() {
   return (
 
