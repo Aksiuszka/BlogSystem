@@ -1,10 +1,12 @@
+
 import React from 'react';
 import { MenuContainer} from './styled';
 
+type MenuProps={children: React.ReactNode;}
 
-function Menu() {
+function Menu({children}: MenuProps) {
   return (
- <MenuContainer></MenuContainer>
+ <MenuContainer>{children}</MenuContainer>
   )
 }
 

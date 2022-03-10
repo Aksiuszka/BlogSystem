@@ -8,7 +8,7 @@ import {
 } from 'constants/colors';
 
 export const MenuContainer = styled.div`
-	width: 70%;
+	width: 63%;
 	height: 70%;
 	position: fixed;
 	top: 50%;
