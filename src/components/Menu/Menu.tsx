@@ -1,13 +1,10 @@
-
 import React from 'react';
-import { MenuContainer} from './styled';
+import { MenuContainer } from './styled';
 
-type MenuProps={children: React.ReactNode;}
+type MenuProps = { children: React.ReactNode };
 
-function Menu({children}: MenuProps) {
-  return (
- <MenuContainer>{children}</MenuContainer>
-  )
+function Menu({ children }: MenuProps) {
+	return <MenuContainer>{children}</MenuContainer>;
 }
 
-export default Menu
+export default Menu;
