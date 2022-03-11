@@ -12,7 +12,7 @@ color: #26272c;
 font-size: 45px;
 margin-top:70px;
 @media (max-width: ${size.lg}) {
-    font-size: 40px;
+    font-size: 30px;
     flex-direction: row;
     width: 100%;
 } 
@@ -23,10 +23,35 @@ height:100%;
 display: flex;
 justify-content: center;
 align-items:center;
-margin-top:7%;
+margin-top:10%;
 @media (max-width: ${size.lg}) {
+	width:67%;
+	margin-top:0%;
+	margin-left:10.5%;
  flex-direction: column;
  justify-content: flex-start;
+}
+`
+;
+export const ParagraphHolderAbout = styled.p`
+color: #26272c;
+margin-top:18px;
+font-size: .9 rem;
+letter-spacing:2px;
+@media (max-width: ${size.md}) {
+    margin-top:5%;
+    font-size: 0.65rem;
+}
+`;
+export const ImgContainerAbout = styled.img`
+width:496px;
+height:289px;
+@media (max-width: ${size.lg}) {
+    margin-top:2%;
+	margin-left:1%;
+    margin-bottom:10%;
+    width:356px;
+    height:159px;
 }
 `
 ;
