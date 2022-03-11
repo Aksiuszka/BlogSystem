@@ -1,9 +1,9 @@
 import React from 'react';
 import { HeaderMainTextAbout, ImgContainerAbout, MainContainerAbout, ParagraphHolderAbout } from 'views/About/styled';
 import {  MainTextContainer, HeaderText, HeaderField, MenuContainer, LinkHolder, LinkContainer } from 'views/Home/styled';
-import Tablet from './assets/tablet.png'
+import Pen from './assets/pen.png'
 
-function ContentAbout() {
+function ContentContact() {
   return (
     <div>
 
@@ -19,15 +19,14 @@ function ContentAbout() {
 			</HeaderField>
 			<MainContainerAbout>
 				<MainTextContainer>
-                    <HeaderMainTextAbout>most important in detail </HeaderMainTextAbout>
-                <ParagraphHolderAbout>Bloggo Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit excepturi, corrupti minus aut ab, veniam at laboriosam ..</ParagraphHolderAbout>
+
                </MainTextContainer>
 
-				<ImgContainerAbout alt="tabletImg" src={Tablet}></ImgContainerAbout>
+				<ImgContainerAbout alt="tabletImg" src={Pen}></ImgContainerAbout>
 			</MainContainerAbout>
 		</MenuContainer>
     </div>
   )
 }
 
-export default ContentAbout
+export default ContentContact

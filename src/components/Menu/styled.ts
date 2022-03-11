@@ -18,7 +18,15 @@ export const MenuContainer = styled.div`
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
+	align-items:center;
 	background: #e3e3e3;
 	box-shadow:  3px 3px 6px #404040,
 				-8px 0px 7px #ffffff;
+		@media (max-width: ${size.lg}) {
+					width:47%;
+					height:50%;
+	
+				}
+				
+				
 `;
