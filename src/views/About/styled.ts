@@ -54,3 +54,11 @@ height:289px;
 }
 `
 ;
+export const Input = styled.input`
+background-color: transparent;
+border:none;
+border-bottom: 2px solid ${MEDIUM_DARK};
+&:focus {
+    outline: none;
+}
+`;

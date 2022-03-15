@@ -105,6 +105,7 @@ display: flex;
 flex-direction: column;
 justify-content:center;
 margin-left: 2%;
+margin-right: 8%;
 @media (max-width: ${size.lg}) {
     margin-top:50px;
 }  

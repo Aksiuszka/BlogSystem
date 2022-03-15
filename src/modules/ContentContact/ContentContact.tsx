@@ -1,6 +1,7 @@
-import React from 'react';
-import { HeaderMainTextAbout, ImgContainerAbout, MainContainerAbout, ParagraphHolderAbout } from 'views/About/styled';
-import {  MainTextContainer, HeaderText, HeaderField, MenuContainer, LinkHolder, LinkContainer } from 'views/Home/styled';
+import React, {Component} from 'react';
+import { HeaderMainTextAbout, ImgContainerAbout, MainContainerAbout, ParagraphHolderAbout, Input } from 'views/About/styled';
+import {  MainTextContainer, HeaderText, HeaderField, MenuContainer, LinkHolder, LinkContainer, ParagraphHolder } from 'views/Home/styled';
+import { InputContainer } from 'components/Form/styled';
 import Pen from './assets/pen.png'
 
 function ContentContact() {
@@ -17,13 +18,17 @@ function ContentContact() {
 					<LinkHolder>about bloggo</LinkHolder>
 				</LinkContainer>
 			</HeaderField>
-			<MainContainerAbout>
+			<InputContainer>
 				<MainTextContainer>
-
+				<ParagraphHolder>name:</ParagraphHolder>
+				<Input></Input>
+				<ParagraphHolder>email:</ParagraphHolder>
+				<Input></Input>
+				<ParagraphHolder>message:</ParagraphHolder>
+				<Input></Input>
                </MainTextContainer>
-
 				<ImgContainerAbout alt="tabletImg" src={Pen}></ImgContainerAbout>
-			</MainContainerAbout>
+			</InputContainer>
 		</MenuContainer>
     </div>
   )
